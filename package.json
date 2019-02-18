@@ -1,0 +1,13 @@
+{
+    "name": "veradent",
+    "version": "0.1.0",
+    "license": "UNLICENSED",
+    "scripts": {
+        "build": "harp compile",
+        "deploy": "surge www"
+    },
+    "devDependencies": {
+        "harp": "^0.29.0",
+        "surge": "^0.20.1"
+    }
+}

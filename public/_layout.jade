@@ -1,0 +1,94 @@
+doctype html
+html
+  head
+    title #{title}
+    meta(name='description', content='Dr. Hammersberg Vera fogszakorvos honlapja.')
+    meta(name='keywords', content='fogszakorvos, fogeltávolítás, fogkőeltávolítás, fogfehérítés, fogékszer')
+    meta(name='author', content='Kalman Speier / Original design by Andreas Viklund')
+    meta(name='robots', content='index, follow')
+    link(rel='stylesheet', type='text/css', href='/css/main.css', media='screen,projection')
+    link(rel='stylesheet', type='text/css', href='/css/thickbox.css')
+    link(rel='stylesheet', type='text/css', href='/css/facebox.css')
+    script(type='text/javascript', src='/js/jquery.js')
+    script(type='text/javascript', src='/js/thickbox.js')
+    script(type='text/javascript', src='/js/facebox.js')
+    script.
+      $(document).ready(function () {
+        jQuery.facebox("Szülési szabadság miatt a rendelés átmenetileg szünetel.<br/><strong>A rendelés májustól folytatódik!</strong>");
+      });
+  body
+    #wrap
+      a(href='http://www.veradent.hu/', style='text-decoration: none;')
+        #header
+          h1
+            | Dr. Hammersberg Vera
+          p
+            strong Fogszakorvos
+          #slogan
+            | „A hely, ahonnan mindenki mosolyogva távozhat.”
+      #sideleft
+        ul.avmenu
+          li
+            a(href="/" class="#{ current.source == 'index' ? 'current' : '' }") Bemutatkozás
+          li
+            a(href="/prices" class="#{ current.source == 'prices' ? 'current' : '' }") Árlista
+          li
+            a(href="/pictures" class="#{ current.source == 'pictures' ? 'current' : '' }") Képek
+        .announce
+          h2
+            | Rendelési idő:
+          table#pricetable
+            tr
+              td.day
+                | Hétfő:
+              td.info
+                | 9:00-15:00
+            tr
+              td.day
+                | Kedd:
+              td.info
+                | 9:00-15:00
+            tr
+              td.day
+                | Szerda:
+              td.info
+                | 9:00-15:00
+            tr
+              td.day
+                | Csütörtök:
+              td.info
+                | 9:00-15:00
+            tr
+              td.day
+                | Péntek:
+              td.info
+                | szünnap
+      #sideright
+        .announce
+          h2
+            | Elérhetőség:
+          br
+          p
+            strong Bejelentkezés:
+            br
+            | +36 (1) 369-7871
+          p
+            strong Cím:
+            br
+            | 1043 Budapest
+            br
+            | Nyár utca 11. Fsz. 1.
+          p
+            strong E-mail:
+            br
+            a(href='mailto:info@veradent.hu') info@veradent.hu
+          p
+            strong Térkép:
+            br
+            a.thickbox(href='/images/map.jpg', title='Térkép')
+              img(src='/images/map_thumb.jpg', alt='')
+      #content
+        != yield
+      #footer
+        p
+          | © 2014 Vera Dent
