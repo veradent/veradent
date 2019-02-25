@@ -6,7 +6,7 @@
         "serve": "harp server",
         "prebuild": "rm -rf www",
         "build": "harp compile",
-        "deploy": "surge www"
+        "deploy": "surge www veradent.hu"
     },
     "devDependencies": {
         "harp": "^0.29.0",
