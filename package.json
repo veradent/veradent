@@ -4,6 +4,7 @@
     "license": "UNLICENSED",
     "scripts": {
         "serve": "harp server",
+        "prebuild": "rm -rf www",
         "build": "harp compile",
         "deploy": "surge www"
     },
