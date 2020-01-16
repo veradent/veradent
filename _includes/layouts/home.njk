@@ -1,0 +1,95 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>{{ renderData.title or title or metadata.title }}</title>
+    <meta name="description" content="Dr. Hammersberg Vera fogszakorvos honlapja.">
+    <meta name="keywords" content="fogszakorvos, fogeltávolítás, fogkőeltávolítás, fogfehérítés, fogékszer">
+    <meta name="author" content="Kalman Speier / Original design by Andreas Viklund">
+    <meta name="robots" content="index, follow">
+    <link rel="stylesheet" type="text/css" href="/css/main.css" media="screen,projection">
+    <link rel="stylesheet" type="text/css" href="/css/thickbox.css">
+    <link rel="stylesheet" type="text/css" href="/css/facebox.css">
+    <script type="text/javascript" src="/js/jquery.js"></script>
+    <script type="text/javascript" src="/js/thickbox.js"></script>
+    <script type="text/javascript" src="/js/facebox.js"></script>
+    <script>
+      $(document).ready(function () {
+        // jQuery.facebox("Szülési szabadság miatt a rendelés átmenetileg szünetel.<br/><strong>A rendelés májustól folytatódik!</strong>");
+      });
+    </script>
+  </head>
+  <body>
+    <div id="wrap">
+      <a href="/" style="text-decoration: none;">
+        <div id="header">
+          <h1>Dr. Hammersberg Vera</h1>
+          <p>
+            <strong>Fogszakorvos</strong>
+          </p>
+          <div id="slogan">„A hely, ahonnan mindenki mosolyogva távozhat.”</div>
+        </div>
+      </a>
+      <div id="sideleft">
+        <ul class="avmenu">
+          <li>
+            <a class="#{ current.source == 'index' ? 'current' : '' }" href="/">Bemutatkozás</a>
+          </li>
+          <li>
+            <a class="#{ current.source == 'prices' ? 'current' : '' }" href="/prices">Árlista</a>
+          </li>
+          <li>
+            <a class="#{ current.source == 'pictures' ? 'current' : '' }" href="/pictures">Képek</a>
+          </li>
+        </ul>
+        <div class="announce">
+          <h2>Rendelési idő:</h2>
+          <table id="pricetable">
+            <tr>
+              <td class="day">Hétfő:</td>
+              <td class="info">9:00-15:00</td>
+            </tr>
+            <tr>
+              <td class="day">Kedd:</td>
+              <td class="info">9:00-15:00</td>
+            </tr>
+            <tr>
+              <td class="day">Szerda:</td>
+              <td class="info">9:00-15:00</td>
+            </tr>
+            <tr>
+              <td class="day">Csütörtök:</td>
+              <td class="info">9:00-15:00</td>
+            </tr>
+            <tr>
+              <td class="day">Péntek:</td>
+              <td class="info">szünnap</td>
+            </tr>
+          </table>
+        </div>
+      </div>
+      <div id="sideright">
+        <div class="announce">
+          <h2>Elérhetőség:</h2><br>
+          <p>
+            <strong>Bejelentkezés:</strong><br>+36 (1) 369-7871</p>
+          <p>
+            <strong>Cím:</strong><br>1043 Budapest<br>Nyár utca 11. Fsz. 1.</p>
+          <p>
+            <strong>Térkép:</strong><br>
+            <a class="thickbox" href="/images/map.jpg" title="Térkép"><img src="/images/map_thumb.jpg" alt=""></a>
+          </p>
+          <p>
+            <strong>GDPR</strong><br>
+            <a href="https://docs.veradent.hu/gdpr/adatkezelesi_szabalyzat.pdf" target="_blank">Adatkezelési szabályzat</a>
+          </p>
+        </div>
+      </div>
+      <div id="content">
+        {{ content | safe }}
+      </div>
+      <div id="footer">
+        <p>&copy; Vera Dent</p>
+      </div>
+    </div>
+  </body>
+</html>

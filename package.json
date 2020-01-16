@@ -1,17 +1,12 @@
 {
-    "name": "veradent",
-    "version": "0.1.0",
-    "license": "UNLICENSED",
-    "scripts": {
-        "serve": "harp server",
-        "clean": "rm -rf www",
-        "prebuild": "npm run clean",
-        "build": "harp compile",
-        "predeploy": "npm run build",
-        "deploy": "surge www veradent.hu"
-    },
-    "devDependencies": {
-        "harp": "^0.29.0",
-        "surge": "^0.20.1"
-    }
+  "name": "veradent",
+  "version": "0.1.0",
+  "license": "UNLICENSED",
+  "scripts": {
+    "build": "eleventy",
+    "serve": "eleventy --serve"
+  },
+  "devDependencies": {
+    "@11ty/eleventy": "^0.10.0"
+  }
 }

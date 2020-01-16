@@ -1,0 +1,554 @@
+body
+{
+	background: url(../images/bg.gif) repeat-y top center #eaeaea;
+	color: #3a3a3a;
+	font: 76% Verdana,Tahoma,Arial,sans-serif;
+	margin: 0 auto;
+	padding: 0;
+}
+
+/* Main layout and header */
+#wrap
+{
+	background: #fff;
+	color: #303030;
+	margin: 0 auto;
+	padding: 1px 5px;
+	width: 760px;
+}
+#header
+{
+	background: url(../images/front.jpg) no-repeat bottom left #fff;
+	color: #505050;
+	height: 205px;
+	margin: 0 0 10px;
+	padding: 0;
+}
+#header h1
+{
+	font-size: 2.5em;
+	font-weight: 400;
+	letter-spacing: -2px;
+	margin: 0 0 4px 15px;
+	padding: 15px 0 0;
+}
+#header h1 a, #header h1 a:hover
+{
+	font-weight: 400;
+	padding: 0;
+}
+#header p
+{
+	font-size: 1.1em;
+	letter-spacing: -1px;
+	margin: 0 0 20px 15px;
+	padding: 0 0 0 3px;
+}
+
+#slogan
+{
+	float: right;
+	margin: 95px 5px 0 0;
+	color: #505050;
+}
+
+/* Left sidebar and menu */
+#sideleft
+{
+	clear: left;
+	float: left;
+	margin: 0 0 10px;
+	padding: 0;
+	width: 150px;
+}
+#sideleft ul.avmenu
+{
+	list-style: none;
+	margin: 0 0 18px;
+	padding: 0;
+	width: 150px;
+}
+#sideleft ul.avmenu li
+{
+	display: inline;
+	padding: 0;
+	width: 150px;
+}
+#sideleft ul.avmenu li a
+{
+	/* background: url(../images/menubg.gif) repeat-x bottom left #f4f4f4; */
+	background: #eaf9ff;
+	border-bottom: 1px solid #d8d8d8;
+	border-left: 4px solid #caeeff;
+	border-right: 1px solid #d8d8d8;
+	border-top: 1px solid #d8d8d8;
+	color: #505050;
+	float: left;
+	font-size: 1em;
+	font-weight: 700;
+	margin-bottom: 5px;
+	padding: 5px 1px 5px 5px;
+	text-decoration: none;
+	width: 138px;
+}
+#sideleft ul.avmenu li a:hover, #sideleft ul.avmenu li a.current
+{
+	/* background: url(../images/menubg2.gif) repeat-x bottom left #eaeaea; */
+	background: #dcf4ff;
+	border-bottom: 1px solid #b0b0b0;
+	border-left: 4px solid #aae3ff;
+	border-right: 1px solid #b0b0b0;
+	border-top: 1px solid #b0b0b0;
+	color: #505050;
+}
+#sideleft ul.avmenu ul
+{
+	font-size: 0.9em;
+	margin: 0 0 0 15px;
+	padding: 0 0 5px 0;
+	width: 133px;
+}
+#sideleft ul.avmenu ul a
+{
+	padding: 3px 1px 3px 5px;
+	width: 123px;
+}
+#sideleft ul.avmenu ul ul
+{
+	font-size: 1em;
+	width: 120px;
+}
+#sideleft ul.avmenu ul ul a
+{
+	width: 108px;
+}
+#sideleft h2
+{
+	font-size: 1.5em;
+	font-weight: 400;
+}
+
+/* Right sidebar */
+#sideright
+{
+	float: right;
+	margin: 0 0 10px;
+	padding: 0;
+	width: 150px;
+}
+#sideright li
+{
+	list-style: none;
+	margin: 0 0 6px;
+	padding: 0;
+}
+#sideright h2
+{
+	font-size: 1.6em;
+	font-weight: 400;
+	letter-spacing: -1px;
+	margin: 0 0 6px;
+}
+
+.announce
+{
+	/* background: url(../images/menubg.gif) repeat-x bottom left #f4f4f4; */
+	background: #eaf9ff;
+	border-bottom: 1px solid #d8d8d8;
+	border-left: 4px solid #caeeff;
+	border-right: 1px solid #d8d8d8;
+	border-top: 1px solid #d8d8d8;
+	clear: left;
+	color: #505050;
+	line-height: 1.3em;
+	margin: 0px 0;
+	padding: 5px 5px 5px;
+	width: 134px;
+}
+p, .announce p
+{
+	font-size: 0.9em;
+	color: #505050;
+}
+
+ul, li
+{
+	color: #505050;
+}
+
+/* Main content variations */
+#content
+{
+	line-height: 1.5em;
+	margin: 10px 150px 10px 160px;
+	padding: 0;
+	text-align: left;
+}
+#contentwide
+{
+	line-height: 1.5em;
+	margin: 10px 0 10px 160px;
+	padding: 0;
+	text-align: left;
+}
+#content h2, #contentwide h2
+{
+	font-size: 1.8em;
+	font-weight: 400;
+	letter-spacing: -1px;
+	margin: 8px 0 10px;
+	padding: 0;
+}
+#content h3, #contentwide h3
+{
+	font-size: 1.5em;
+	font-weight: 400;
+	margin: 6px 0;
+	padding: 5px 0 10px 0;
+}
+#content img, #contentwide img
+{
+	border: 4px solid #f0f0f0;
+	color: #303030;
+	display: inline;
+	padding: 1px;
+	margin: 0 5px 5px 5px;
+}
+#content ul, #content ol, #contentwide ul, #contentwide ol
+{
+	margin: 0 0 16px 20px;
+	padding: 0;
+}
+#content ul ul, #content ol ol, #contentwide ul ul, #contentwide ol ol
+{
+	margin: 2px 0 2px 20px;
+}
+#content li, #contentwide li
+{
+	margin: 0 0 2px 10px;
+	padding: 0 0 0 4px;
+}
+
+/* Footer */
+#footer
+{
+	background: #fff;
+	border-top: 2px solid #dadada;
+	clear: both;
+	color: silver;
+	font-size: 0.9em;
+	margin: 0 auto;
+	padding: 8px 0;
+	text-align: center;
+	width: 760px;
+}
+#footer p
+{
+	margin: 0;
+	padding: 0;
+	color: silver;
+}
+#footer a
+{
+	background: inherit;
+	color: silver;
+	font-weight: 400;
+	text-decoration: none;
+}
+#footer p.design
+{
+	font-size: 80%;
+	color: silver;
+}
+#footer p.design a
+{
+	color: silver;
+}
+#footer a:hover
+{
+	text-decoration: underline;
+}
+
+/* Links and paragraphs */
+a, #content a, #contentwide a
+{
+	background: inherit;
+	color: #166090;
+	text-decoration: none;
+	font-weight: 700;
+}
+a:hover
+{
+	background: inherit;
+	color: #286ea0;
+	text-decoration: underline;
+}
+a img, #content a img, #contentwide a img
+{
+	border: 0;
+}
+p
+{
+	margin: 0 0 16px;
+}
+blockquote
+{
+	background: url(../images/menubg.gif) repeat-x bottom left #f4f4f4;
+	border-bottom: 1px solid #d8d8d8;
+	border-left: 4px solid #ccc;
+	border-right: 1px solid #d8d8d8;
+	border-top: 1px solid #d8d8d8;
+	color: #505050;
+	margin: 16px;
+	padding: 7px 7px 7px 11px;
+}
+blockquote p
+{
+	font-size: 1.1em;
+	line-height: 1.3em;
+	margin: 0;
+}
+
+/* Tables and forms */
+#content table
+{
+	border-collapse: collapse;
+	line-height: 1.3em;
+	width: 95%;
+	margin: 0 0 16px;
+	padding: 0;
+}
+caption
+{
+	font-size: 1.5em;
+	font-weight: 400;
+	margin: 0;
+	padding: 6px 0 8px;
+	text-align: left;
+}
+th
+{
+	background: url(../images/menubg2.gif) repeat-x bottom left #eaeaea;
+	color: #505050;
+	padding: 7px;
+	text-align: left;
+}
+td
+{
+	background: url(../images/menubg.gif) repeat-x bottom left #f4f4f4;
+	color: #303030;
+	font-size: 0.9em;
+	padding: 7px;
+	text-align: left;
+}
+input, textarea
+{
+	border: 1px solid #ccc;
+	font-family: Verdana,Tahoma,Arial,Sans-Serif;
+	font-size: 1em;
+	margin: 0;
+	padding: 4px;
+}
+label
+{
+	margin: 2px;
+}
+input
+{
+	width: 195px;
+}
+textarea
+{
+	width: 415px;
+}
+
+/* Search box */
+#searchbox label, .hide
+{
+	display: none;
+}
+#searchbox
+{
+	margin: 6px 0 16px;
+	padding: 0;
+}
+#searchform
+{
+	background: #fff;
+	border: 1px solid #ccc;
+	color: #505050;
+	font-size: 0.9em;
+	padding: 4px;
+	width: 116px;
+}
+
+/* Various classes */
+.announce h2
+{
+	margin: 0 0 10px;
+	padding: 0;
+}
+.textright
+{
+	margin: -10px 0 4px;
+	text-align: right;
+}
+.center
+{
+	text-align: center;
+}
+.small
+{
+	font-size: 0.8em;
+}
+.large
+{
+	font-size: 1.3em;
+}
+.highlighted
+{
+	background: #f0f0f0;
+	border: 1px solid #b0b0b0;
+	color: #303030;
+	padding: 3px;
+}
+.button
+{
+	background: url(../images/menubg.gif) repeat-x bottom left #f4f4f4;
+	border-bottom: 1px solid #d8d8d8;
+	border-left: 4px solid #ccc;
+	border-right: 1px solid #d8d8d8;
+	border-top: 1px solid #d8d8d8;
+	color: #505050;
+	font-weight: 700;
+	margin: 0 0 15px;
+	padding: 7px 7px 7px 11px;
+	width: 120px;
+}
+.left
+{
+	float: left;
+	margin: 10px 10px 5px 0;
+}
+.right
+{
+	float: right;
+	margin: 10px 0 5px 10px;
+}
+#pricetable
+{
+	border: 0;
+	width: 100%;
+}
+#pricetable tr
+{
+	font-size: 80%;
+	font-weight: bold;
+}
+#pricetable td
+{
+	padding: 1px;
+	color: #505050;
+	background: #eaf9ff;
+}
+#pricetable td.day
+{
+	text-align: left;
+}
+#pricetable td.info
+{
+	text-align: center;
+}
+#content .feedbacktable
+{
+	border: 1px solid #d8d8d8;
+	width: 98%;
+	margin-top: 10px;
+}
+#feedbackitem td
+{
+	color: #505050;
+}
+#feedbackitem td.time
+{
+	text-align: right;
+	font-style: italic;
+}
+#feedbackitem td.text
+{
+	padding-bottom: 20px;
+}
+#feedbackbutton a
+{
+	background: transparent;
+	cursor: pointer;
+}
+#feedbackbutton td
+{
+	width: 33%;
+}
+#writefeedback td
+{
+	width: 50%;
+}
+#writefeedback td.imgbtn
+{
+	text-align: right;
+	padding: 0;
+}
+#writefeedback td.lnkbtn
+{
+	text-align: left;
+	padding: 0;
+}
+#writefeedback a
+{
+	background: transparent;
+}
+#writefeedback img
+{
+	border: 1px solid #ccc;
+	margin: 0;
+}
+.txtinput
+{
+    width: 97%;
+}
+.btnpost
+{
+    background-image: url('../images/send.gif');
+    background-position: left center;
+    background-repeat: no-repeat;
+    width: 120px;
+    height: 25px;
+    border: 0;
+    margin-top: 10px;
+    float: right;
+    cursor: pointer;
+}
+.captchainput
+{
+	width: 85px;
+	margin-top: 0px;
+	#margin-top: -1px;
+}
+
+#pictable
+{
+	border: 0;
+	width: 100%;
+}
+#pictable tr
+{
+	font-size: 90%;
+	font-weight: bold;
+	height: 30px;
+	vertical-align: top;
+}
+#pictable td
+{
+	color: #505050;
+	background: white;
+	padding: 0;
+	text-align: center;
+}
