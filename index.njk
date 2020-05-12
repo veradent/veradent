@@ -2,6 +2,44 @@
 layout: layouts/home.njk
 ---
 
+	 <script type='text/javascript' language='Javascript'>
+<!-- A popup lecsúszásának sebessége -->
+var div = 5;var sliderEnabled = true;
+function scrFol()
+{
+var ad = document.getElementById( 'slider' );
+var dPos = ( document.all ) ? document.body.scrollTop : window.pageYOffset;if ( ( dPos == 0 ) && ( document.all ) )
+dPos = document.documentElement.scrollTop;dPos += 125;
+var cPos = parseInt( ad.style.top );
+if ( cPos == 0 )
+cPos = dPos-1000;var posDif = dPos-cPos;if ( ( ad.style.display == 'none' ) && ( sliderEnabled ) )
+ad.style.display = 'block';if ( posDif > 0 )
+ad.style.top = (cPos+Math.ceil(posDif/div))+'px';
+else if ( posDif < 0 )
+ad.style.top = (cPos+Math.floor(posDif/div))+'px';if ( sliderEnabled )
+setTimeout( 'scrFol()', 40 );
+}
+function closeFollowSlider()
+{
+sliderEnabled = false;
+document.getElementById( 'slider' ).style.display = 'none';
+}<!-- A popup lecsúszásának késleltetése -->
+setTimeout( 'scrFol()', 2000 );
+</script><div id="slider" valign="top" style="border-right: #bf0000 2px solid; padding-right: 20px; border-top: #bf0000 2px solid; display: none; padding-left: 20px; z-index: 999; background: #ffffff; left: 110px; padding-bottom: 20px; border-left: #bf0000 2px solid; width: 480px; padding-top: 20px; border-bottom: #bf0000 2px solid; position: absolute; top: 0px" align="left;">
+<div align="left">
+<a align="right" href="javascript:closeFollowSlider();"><img id="bezar" align="right" height="16" alt="bezárás" width="16" border="0" src="close.gif" /></a></div>
+<p style="padding-right: 0px; padding-left: 0px; font-weight: bold; font-size: 120%; padding-bottom: 0px; color: #ff0000;; padding-top: 0px; border-bottom: #cccccc 1px dotted;"><b>Tisztelt látogatók !</b></p>
+<!-- <p><img class="kep_kerettel_balra" height="128" alt="" width="87" align="left" style="padding-right: 5px; padding-left: 5px; padding-bottom: 5px; margin: 5px 10px 5px 0px; padding-top: 5px" src="img.jpg" />Egyszerű módon bármelyik lapodra tudsz feltenni egy olyan ablakot amely fentről beúszik az oldalnak a megnyitásakor.</p>-->
+
+<a style="color: #ff0000; font-weight: bold;"> IDŐPONT KÉRÉS: idopont.fogaszat@gmail.com</a>
+
+</div>
+	
+<!--FELUGRÓ ABLAK BFEJEZVE -->
+
+
+
+
 <h3>! Kedves Pácienseink !</h3>
 <h3>HAMAROSAN NYITUNK!</h3>
 <h4>A koronavírussal kapcsolatos új kormányrendelet lehetővé teszi, hogy újra fogadhassunk pácienseket, szigorú szabályok szerint. Az újraindítás feltételei nem teljesen tisztázottak, a háttérben folyamatosan dolgozunk a biztonságos környezet kialakításán. Kérjük továbbra is türelmüket, és megértésüket!
