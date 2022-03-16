@@ -1,4 +1,5 @@
 module.exports = (eleventyConfig) => {
+  eleventyConfig.addPassthroughCopy("CNAME")
   eleventyConfig.addPassthroughCopy("banners")
   eleventyConfig.addPassthroughCopy("css")
   eleventyConfig.addPassthroughCopy("docs")
