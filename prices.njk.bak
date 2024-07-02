@@ -4,32 +4,32 @@ layout: layouts/home.njk
 
 <h3>Árlista</h3>
 <ul>
-  <li>Fogászati ellenőrzés, kezelési terv készítés: 5000 Ft (rendszeresen, 1 éven belül díjtalan)</li>
+  <li>Fogászati ellenőrzés, kezelési terv készítés: 7000 Ft (rendszeresen, 1 éven belül díjtalan)</li>
   <li>Fogeltávolítás: 15000-25000 Ft </li>
-  <li>Fogkő eltávolítás: 13000-20000 Ft (érzéstelenítéssel: +3000 Ft)</li>
+  <li>Fogkő eltávolítás: 15000-22000 Ft (érzéstelenítéssel: +4000 Ft)</li>
   <li>Gyökértömés gépi gyökércsatorna tágítóval (nem tartalmazza a fedőtömés árát):
     <ul>
-      <li>1 gyökerű fog: 20000 Ft</li>
-      <li>2 gyökerű fog: 30000 Ft</li>
-      <li>3 gyökerű fog: 40000 Ft</li>
-      <li>4 gyökerű fog: 45000 Ft</li>
+      <li>1 gyökerű fog: 23000 Ft</li>
+      <li>2 gyökerű fog: 34000 Ft</li>
+      <li>3 gyökerű fog: 45000 Ft</li>
+      <li>4 gyökerű fog: 50000 Ft</li>
     </ul>
   </li>
   <li>Ideiglenes gyökértömés (alkalmanként):
     <ul>
-      <li>1 gyökerű fog: + 8000 Ft</li>
-      <li>2 gyökerű fog: + 10000 Ft</li>
-      <li>3 gyökerű fog: + 12000 Ft</li>
-      <li>4 gyökerű fog: + 14000 Ft</li>
+      <li>1 gyökerű fog: + 10000 Ft</li>
+      <li>2 gyökerű fog: + 13000 Ft</li>
+      <li>3 gyökerű fog: + 15000 Ft</li>
+      <li>4 gyökerű fog: + 18000 Ft</li>
     </ul>
   </li>
-  <li>Esztétikus tömés, fedőtömés: 12000-20000 Ft</li>
-  <li>Gyógyszeres alábélelés: +1000-2000 Ft </li>
-  <li>Íny kauterezése +3000 Ft </li>
+  <li>Esztétikus tömés, fedőtömés: 15000-25000 Ft</li>
+  <li>Gyógyszeres alábélelés: +2000-4000 Ft </li>
+  <li>Íny kauterezése +5000 Ft </li>
   <li>Esztétikus betét (inlay, onlay): 58000 Ft</li>
   <li>Amalgám tömés: 15000-20000 Ft</li>
   <li>Ideiglenes tömés: +5000-10000 Ft</li>
-  <li>Barázdazárás: 10000 Ft</li>
+  <li>Barázdazárás: 15000 Ft</li>
   <li>Alsó/felső sín: 20000 Ft</li>
   <li>Fogfehérítés: 70000 Ft</li>
   <li>4-es fehérítő készlet: 20000 Ft</li>
@@ -52,5 +52,5 @@ layout: layouts/home.njk
 
 <div style="padding: 20px; float: right;">Dr Mezei Márta<br/>Dr Hammersberg Vera</div>
 <div style="padding: 20px; float: left;">
-  <i>2022. október</i>
+  <i>2024. július</i>
 </div>
