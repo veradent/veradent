@@ -56,6 +56,9 @@
         <div class="announce">
           <h2>Rendelési idő:</h2>
           <table id="pricetable">
+		    <tr>
+              <td class="info">RENDELÉSI IDŐ VÁLTOZHAT, KÉRJÜK ÉRDEKLŐDJÖN TELEFONON</td>
+            </tr>
             <tr>
               <td class="day">Hétfő:</td>
               <td class="info">9:00-18:00</td>
@@ -70,11 +73,11 @@
             </tr>
             <tr>
               <td class="day">Csütörtök:</td>
-              <td class="info">Medicover</td>
+              <td class="info">szünnap</td>
             </tr>
             <tr>
               <td class="day">Péntek:</td>
-              <td class="info">Medicover</td>
+              <td class="info">szünnap</td>
             </tr>
           </table>
         </div>
